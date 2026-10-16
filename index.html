@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital | UniFECAF</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho Fixo e Responsivo -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="brand">
+                <h1>UniFECAF</h1>
+                <span class="badge">Biblioteca Digital</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home">Início</a>
+                <a href="#livros">Acervo</a>
+                <a href="#sobre">A Biblioteca</a>
+                <a href="#faq">FAQ</a>
+                <a href="#unidades">Unidades & Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Secção Principal / Hero com Barra de Pesquisa -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h2>Conhecimento ao seu alcance</h2>
+                <p>Acesse livros, materiais acadêmicos e conteúdos de apoio à aprendizagem de forma rápida e intuitiva.</p>
+                
+                <!-- Barra de Pesquisa Interativa -->
+                <div class="search-box">
+                    <input type="text" placeholder="Pesquisar por título, autor ou palavra-chave..." aria-label="Pesquisar no acervo">
+                    <button type="button" class="btn-search">Buscar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção de Destaques e Filtros do Acervo -->
+        <section id="livros" class="container section">
+            <div class="section-header">
+                <h3>Acervo Acadêmico em Destaque</h3>
+                <p>Explore os livros mais requisitados pelos cursos da instituição</p>
+            </div>
+
+            <!-- Filtros de Categoria Interativos -->
+            <div class="filter-buttons">
+                <button class="filter-btn active">Todos</button>
+                <button class="filter-btn">Engenharia</button>
+                <button class="filter-btn">Negócios</button>
+                <button class="filter-btn">Tecnologia</button>
+                <button class="filter-btn">Saúde</button>
+            </div>
+
+            <div class="card-grid">
+                <!-- Livro 1 -->
+                <article class="card">
+                    <span class="card-tag">Engenharia</span>
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80" alt="Capa do Livro Design Systems" class="book-img">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h4>Design Systems na Prática</h4>
+                            <p class="author">Autor: Equipe UniFECAF</p>
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="availability available">Disponível Online</span>
+                            <a href="#" class="btn-read">Ler Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Livro 2 -->
+                <article class="card">
+                    <span class="card-tag">Negócios</span>
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80" alt="Capa do Livro Gestão Ágil" class="book-img">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h4>Gestão Ágil de Projetos</h4>
+                            <p class="author">Autor: Equipe UniFECAF</p>
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="availability available">Disponível Online</span>
+                            <a href="#" class="btn-read">Ler Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Livro 3 -->
+                <article class="card">
+                    <span class="card-tag">Tecnologia</span>
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=600&q=80" alt="Capa do Livro Desenvolvimento Web" class="book-img">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h4>Desenvolvimento Web Moderno</h4>
+                            <p class="author">Autor: Equipe UniFECAF</p>
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="availability available">Acesso Imediato</span>
+                            <a href="#" class="btn-read">Ler Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Livro 4 -->
+                <article class="card">
+                    <span class="card-tag">Saúde</span>
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Capa do Livro Anatomia Aplicada" class="book-img">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h4>Anatomia & Prática Clínica</h4>
+                            <p class="author">Autor: Departamento de Saúde UniFECAF</p>
+                        </div>
+                        <div class="card-footer-info">
+                            <span class="availability available">Disponível Online</span>
+                            <a href="#" class="btn-read">Ler Agora</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Secção Sobre a Biblioteca -->
+        <section id="sobre" class="about-section">
+            <div class="container about-container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Sobre a Biblioteca Digital</h3>
+                        <p>Desenvolvida para transformar a experiência acadêmica, nossa plataforma digital integra múltiplos acervos e apoia o estudante em qualquer jornada de aprendizagem[cite: 2]. Contamos com milhares de títulos e periódicos indexados para impulsionar o seu sucesso escolar e profissional.</p>
+                    </div>
+                    <div class="about-img-container">
+                        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80" alt="Estudantes na biblioteca institucional" class="institution-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção de Perguntas Frequentes (FAQ) -->
+        <section id="faq" class="container section">
+            <div class="section-header">
+                <h3>Perguntas Frequentes (FAQ)</h3>
+                <p>Tire suas dúvidas sobre o funcionamento da plataforma</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Como faço para acessar os livros digitais?</h4>
+                    <p>Basta utilizar o seu RA e senha institucional no primeiro acesso à plataforma para visualizar e ler os conteúdos em PDF ou leitor integrado.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Posso baixar os materiais para leitura offline?</h4>
+                    <p>Sim! Os materiais de apoio e capítulos selecionados possuem opção de download seguro para estudantes matriculados.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Qual o prazo de empréstimo de livros físicos nas unidades?</h4>
+                    <p>O prazo padrão é de 14 dias, podendo ser renovado diretamente pelo portal acadêmico caso não haja reservas pendentes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção Unidades e Contacto (Gmail) -->
+        <section id="unidades" class="container section">
+            <div class="section-header">
+                <h3>Nossas Unidades & Contato</h3>
+                <p>Encontre suporte físico, digital e fale diretamente com a nossa equipe</p>
+            </div>
+            <div class="units-grid">
+                <div class="unit-card">
+                    <h4>Unidade Centro</h4>
+                    <p>Atendimento presencial e laboratórios dedicados.</p>
+                    <a href="mailto:centro.biblioteca@unifecaf.com.br" class="contact-link">📧 centro.biblioteca@unifecaf.com.br</a>
+                </div>
+                <div class="unit-card">
+                    <h4>Unidade Norte</h4>
+                    <p>Acervo físico ampliado e salas de estudo em grupo.</p>
+                    <a href="mailto:norte.biblioteca@unifecaf.com.br" class="contact-link">📧 norte.biblioteca@unifecaf.com.br</a>
+                </div>
+                <div class="unit-card">
+                    <h4>Unidade Sul</h4>
+                    <p>Espaço maker e biblioteca digital integrada.</p>
+                    <a href="mailto:sul.biblioteca@unifecaf.com.br" class="contact-link">📧 sul.biblioteca@unifecaf.com.br</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 UniFECAF - Biblioteca Digital. Todos os direitos reservados[cite: 5].</p>
+            <p>Suporte Técnico Geral: <a href="mailto:suporte.digital@unifecaf.com.br" class="footer-link">suporte.digital@unifecaf.com.br</a></p>
+        </div>
+    </footer>
+</body>
+</html>
