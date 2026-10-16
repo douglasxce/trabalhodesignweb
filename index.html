@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Digital — UniFECAF</title>
-    <!-- Ligação corrigida do CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <!-- Cabeçalho -->
     <header class="header">
         <div class="container header-container">
-            <h1 class="logo">UniFECAF</h1>
-            <p class="subtitle">Biblioteca Digital</p>
+            <div class="logo-area">
+                <h1 class="logo">UniFECAF</h1>
+                <span class="subtitle">Biblioteca Digital</span>
+            </div>
             <nav class="nav">
                 <ul>
                     <li><a href="#inicio">Início</a></li>
@@ -26,6 +28,7 @@
     </header>
 
     <main>
+        <!-- Banner Principal / Hero -->
         <section id="inicio" class="hero">
             <div class="container hero-container">
                 <h2>Conhecimento ao seu alcance</h2>
@@ -37,6 +40,7 @@
             </div>
         </section>
 
+        <!-- Secção de Acervo -->
         <section id="acervo" class="acervo container">
             <h2>Acervo Acadêmico em Destaque</h2>
             <p class="section-desc">Explore os livros mais requisitados pelos cursos da instituição</p>
@@ -51,20 +55,73 @@
 
             <div class="card-grid">
                 <article class="card">
-                    <span class="badge">Engenharia</span>
+                    <span class="badge">Tecnologia</span>
                     <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=600&auto=format&fit=crop" alt="Capa de livro sobre Design Systems">
                     <div class="card-body">
                         <h3>Design Systems na Prática</h3>
                         <p class="author">Autor: Equipe UniFECAF</p>
+                        <p class="desc">Guia completo para construção de interfaces escaláveis e acessíveis.</p>
+                        <a href="#" class="btn-link">Acessar Livro →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <span class="badge">Engenharia</span>
+                    <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=600&auto=format&fit=crop" alt="Capa de livro de Cálculo">
+                    <div class="card-body">
+                        <h3>Cálculo Aplicado à Engenharia</h3>
+                        <p class="author">Autor: Prof. Carlos Silva</p>
+                        <p class="desc">Fundamentos e exercícios práticos voltados para exatas.</p>
+                        <a href="#" class="btn-link">Acessar Livro →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <span class="badge">Negócios</span>
+                    <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=600&auto=format&fit=crop" alt="Capa de livro de Gestão">
+                    <div class="card-body">
+                        <h3>Gestão Ágil de Projetos</h3>
+                        <p class="author">Autora: Dra. Ana Souza</p>
+                        <p class="desc">Metodologias Scrum, Kanban e liderança de equipas modernas.</p>
+                        <a href="#" class="btn-link">Acessar Livro →</a>
                     </div>
                 </article>
             </div>
         </section>
+
+        <!-- Secção Sobre A Biblioteca -->
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre a Biblioteca Digital</h2>
+                <p>A Biblioteca Digital UniFECAF foi criada para proporcionar aos nossos alunos um ambiente moderno, acessível e disponível 24 horas por dia. O nosso compromisso é facilitar o acesso ao conhecimento com uma plataforma intuitiva e acervo constantemente atualizado.</p>
+            </div>
+        </section>
+
+        <!-- Secção FAQ -->
+        <section id="faq" class="faq container">
+            <h2>Perguntas Frequentes (FAQ)</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Como faço para acessar os livros digitais?</h3>
+                    <p>Basta pesquisar o título desejado no campo de busca ou navegar pelas categorias e clicar no botão "Acessar Livro".</p>
+                </div>
+                <div class="faq-item">
+                    <h3>A plataforma está disponível para dispositivos móveis?</h3>
+                    <p>Sim! A plataforma é totalmente responsiva e pode ser acessada de smartphones, tablets e computadores.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 UniFECAF — Todos os direitos reservados.</p>
+    <!-- Rodapé e Contacto -->
+    <footer id="contato" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>UniFECAF — Centro Universitário</h3>
+                <p>Unidade Taboão da Serra - SP</p>
+                <p>Atendimento ao Aluno: suporte@unifecaf.edu.br</p>
+            </div>
+            <p class="copy">&copy; 2026 UniFECAF — Todos os direitos reservados.</p>
         </div>
     </footer>
 
